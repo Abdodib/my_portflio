@@ -44,6 +44,14 @@ export default function Header() {
         </div>
       
 </div>
+<div className="skils">
+  <h2>HTML 5</h2>
+  <h2>CSS</h2>
+  <h2>JAVASCRIPT</h2>
+  <h2>REACT.JS</h2>
+  <h2>JAVA</h2>
+  <h2>WORDPRESS</h2>
+</div>
     </>
   );
 }
