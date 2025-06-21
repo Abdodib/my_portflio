@@ -36,6 +36,7 @@ const Projects = () => {
 <div className="st">
   <h2>Projects</h2>
   <div className="ligne"></div>
+  <h2 className="dot1" style={{}}></h2>
 </div>
   <div>
     {projects.map((project, index) => (
