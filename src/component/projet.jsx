@@ -1,8 +1,8 @@
 import React from "react";
-import "./projects.css";
-import greenKitchenImage from "./assets/green-kitchen.png"; 
-import dessertMenuImage from "./assets/dessert-menu.png"; 
-import portfolioImage from "./assets/portfolio.png"; 
+import "../style/projects.css";
+import greenKitchenImage from "../assets/green-kitchen.png"; 
+import dessertMenuImage from "../assets/dessert-menu.png"; 
+import portfolioImage from "../assets/portfolio.png"; 
 const projects = [
   {
     title: "Portfolio",

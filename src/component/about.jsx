@@ -1,9 +1,9 @@
 import React from "react";
 
-import java from "./assets/java.png";
-import wordpress from "./assets/wordpress.png";
-import front from "./assets/front.png";
-import "./about.css";
+import java from "../assets/java.png";
+import wordpress from "../assets/wordpress.png";
+import front from "../assets/front.png";
+import "../style/about.css"; 
 export default function About() {
   return (
 <div className="about" id="about">

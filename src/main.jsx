@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import Headers from './header.jsx'
-import About from './about.jsx'
-import Projects from './projet.jsx'
+import Headers from './component/header.jsx'
+import About from './component/about.jsx'
+import Projects from './component/projet.jsx'
 
 
 createRoot(document.getElementById('root')).render(

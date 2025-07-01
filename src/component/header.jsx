@@ -1,6 +1,6 @@
 import React from 'react';
-import './header.css';
-import myImage from'./assets/myimg.png'; // Ensure the image path is correct
+import '../style/header.css';
+import myImage from'../assets/myimg.png'; // Ensure the image path is correct
 
 export default function Header() {
 
