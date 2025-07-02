@@ -38,3 +38,50 @@ border-left: 5px solid #FD7354;
     line-height: 1.6;
     
 }
+@media (max-width: 1024px) {
+  .about {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
+
+  .left {
+    align-items: center;
+  }
+
+  .leftb {
+    justify-content: center;
+    border-left: none;
+    border-top: 5px solid #FD7354;
+    padding-top: 10px;
+  }
+
+  .dot {
+    display: none; /* Les points de séparation ne sont plus utiles sur mobile */
+  }
+
+  .right {
+    align-items: center;
+    gap: 40px;
+  }
+
+  .right p {
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 600px) {
+  .leftb h2 {
+    font-size: 16px;
+  }
+
+  .right h1 {
+    font-size: 24px;
+  }
+
+  .right p {
+    font-size: 14px;
+  }
+}

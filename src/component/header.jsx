@@ -34,16 +34,17 @@ export default function Header() {
         <h1>i'm a Front-end Developer</h1>
 
         <div className="whbtn">
-          <a href='/contact' className="btn1">GET a Project?</a>
-          <a href="/about" className="btn2">My resume</a>
+          <a href="#contact" className="btn1">GET a Project?</a>
+          <a href="#about" className="btn2">My resume</a>
         </div>
         </div>
         <div className="mypic">
           <div className="cyr"></div>
           <img src={myImage} alt="" className="myimg" />
         </div>
-      
+        
 </div>
+
 <div className="skils">
   <h2>HTML 5</h2>
   <h2>CSS</h2>
