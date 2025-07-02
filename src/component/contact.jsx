@@ -3,11 +3,12 @@ import "../style/contact.css";
 
 export default function Contact(){
     return (
-    <div className="contact-container" id="contact">
+      <form action="">
+         <div className="contact-container" id="contact">
       <div className="contact-left">
         <h4>Contacts</h4>
         <h1>Have a project?<br />Let's talk!</h1>
-        <button>Submit</button>
+        <button type="submit">Submit</button>
       </div>
       <div className="contact-right">
         <form>
@@ -17,5 +18,7 @@ export default function Contact(){
         </form>
       </div>
     </div>
+   
+      </form>
   );
 }
