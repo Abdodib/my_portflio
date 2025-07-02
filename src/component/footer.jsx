@@ -6,10 +6,11 @@ export default function Footer() {
   return (
     <footer className="footer">
       <h2>Abdelalim Dib</h2>
-      <p>Designed with love, all rights reserved for Jensen Omega.</p>
+      <p>Designed with love, all rights reserved for Abdelalim Dib.</p>
       <div className="social-icons">
-        <a href="mailto:abdelalimedib@gmail.com" target="_blank" rel="noopener noreferrer">
-        <Mail size={32} />
+
+        <a href="mailto:abdelalimedib@gmail.com" rel="noopener noreferrer">
+            <Mail size={32} />
         </a>
 
         <a href="https://github.com/Abdodib" target="_blank" rel="noopener noreferrer">
